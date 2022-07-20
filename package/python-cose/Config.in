@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_COSE
+	bool "python-cose"
+	help
+	  Python COSE implementation
+
+	  https://github.com/TimothyClaeys/pycose 
