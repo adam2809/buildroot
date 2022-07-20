@@ -1,0 +1,6 @@
+config BR2_PACKAGE_IAT_VERIFIER
+	bool "iat-verifier"
+	help
+	  Scripts for verifiying IAT
+
+	  https://gerrit.oss.arm.com/admin/repos/iot-sw/tf-m/internal/tf-m-tools
