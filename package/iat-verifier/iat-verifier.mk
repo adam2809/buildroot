@@ -5,6 +5,7 @@
 ################################################################################
 
 define IAT_VERIFIER_CP_SAMPLE_FILES
+	if [ ! -d "files/root" ]; then mkdir -p files/root; fi
         rm -rf files/root/*
         cp -r dl/iat-verifier/git/iat-verifier/sample files/root
 endef
